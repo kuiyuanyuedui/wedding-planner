@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www",
-    "postinstall": "cd front && npm install && npm run build",
+    "postinstall": "cd front2 && npm install && npm run build",
     "initdb":
     "mongoimport -d WeddingPlanner -c UserTask --jsonArray --file data/task.json"
   },
