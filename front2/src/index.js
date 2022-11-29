@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import TaskList from "./pages/TaskList";
+import Card from "./pages/Card";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <TaskList />,
   },
   {
-    path: "/todo",
-    element: <TaskList />,
+    path: "/card",
+    element: <Card />,
   },
 ]);
 

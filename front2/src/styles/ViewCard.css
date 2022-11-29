@@ -1,0 +1,25 @@
+.card{
+    width: 1000px;
+    height: 700px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.invite{
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    margin-top: 50px;
+}
+
+.ppl{
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}

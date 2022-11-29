@@ -7,7 +7,7 @@
     "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www",
     "postinstall": "cd front2 && npm install && npm run build",
     "initdb":
-    "mongoimport -d WeddingPlanner -c UserTask --jsonArray --file data/task.json"
+    "mongoimport -d WeddingPlanner -c UserTask --jsonArray --file data/task.json & mongoimport -d WeddingPlanner -c Cards --jsonArray --file data/card.json"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

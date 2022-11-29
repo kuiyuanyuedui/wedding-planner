@@ -1,5 +1,6 @@
 import express from "express";
 import myDB from "../db/MyMongo.js";
+import myDB2 from "../db/MyCardMongo.js";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -24,6 +25,22 @@ router.get("/getUserTasks/:userid", async function (req, res, next) {
     console.log("Error in db", e);
     res.status(300).json({
       tasks: [],
+      msg: "Error in the query",
+      error: true,
+      errorObj: JSON.stringify(e),
+    });
+  }
+});
+router.get("/getUserCards/:userid", async function (req, res, next) {
+  let cards;
+  const userid = req.params.userid;
+  try {
+    cards = await myDB2.getCard(userid);
+    res.status(200).json({ cards, msg: "Query successful" });
+  } catch (e) {
+    console.log("Error in db", e);
+    res.status(300).json({
+      cards: [],
       msg: "Error in the query",
       error: true,
       errorObj: JSON.stringify(e),
@@ -62,14 +79,43 @@ router.post("/addTask", async function (req, res) {
     });
   }
 });
-router.post("/delete", async function (req, res) {
-  let taskid = parseInt(req.body.id);
+router.post("/addCard", async function (req, res) {
+  let card = req.body;
+
   try {
-    await myDB.deleteTask(taskid);
+    await myDB2.insertCard(card);
   } catch (e) {
     console.log("Error in db", e);
     res.status(300).json({
-      tasks: [],
+      card: [],
+      msg: "Error in the query",
+      error: true,
+      errorObj: JSON.stringify(e),
+    });
+  }
+});
+router.post("/delete", async function (req, res) {
+  let cardid = parseInt(req.body.id);
+  try {
+    await myDB2.deleteCard(cardid);
+  } catch (e) {
+    console.log("Error in db", e);
+    res.status(300).json({
+      cards: [],
+      msg: "Error in the query",
+      error: true,
+      errorObj: JSON.stringify(e),
+    });
+  }
+});
+router.post("/deletecard", async function (req, res) {
+  let cardid = parseInt(req.body.id);
+  try {
+    await myDB2.deleteCard(cardid);
+  } catch (e) {
+    console.log("Error in db", e);
+    res.status(300).json({
+      cards: [],
       msg: "Error in the query",
       error: true,
       errorObj: JSON.stringify(e),
