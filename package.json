@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www",
-    "postinstall": "cd front && npm install && npm run build"
+    "postinstall": "cd front && npm install && npm run build",
+    "initdb":
+    "mongoimport -d WeddingPlanner -c UserTask --jsonArray --file data/task.json"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,6 +16,7 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^4.2.1",
     "express": "~4.16.1",
+    "mongodb": "^4.12.1",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
