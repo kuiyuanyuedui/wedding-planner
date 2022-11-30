@@ -42,6 +42,11 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 https://loom.com/share/bdad4f5ff6324f21a6b6dedd474a26cc
 
 
+# Design Document
+
+https://docs.google.com/document/d/1nvPZD7E2ACgfGQE0EmPz7LeEbR8tsXJijxKbMa1lVx4/edit?usp=sharing
+
+
 # Screenshots
 
 
