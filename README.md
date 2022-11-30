@@ -32,6 +32,13 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 -  Select on a card previously made to view item
 - Click on delete to delete a card
 
+# MileStones
+
+1. 60 % - Frontend and backend of the task manager module to track some common wedding tasks along with dropdown functionality to select tasks from there.
+
+2. 80% - Frontend and backend of the wedding card generator feature where users can select a theme and add names on card and also view and delete previously made cards.
+
+
 
 # Screenshots
 
