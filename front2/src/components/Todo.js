@@ -45,7 +45,7 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo, userid }) {
   ));
 }
 
-Todo.prototype = {
+Todo.proptype = {
   updateTodo: PropTypes.func,
   removeTodo: PropTypes.func,
   completeTodo: PropTypes.func,

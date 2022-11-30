@@ -42,3 +42,5 @@ export default function Card() {
     </React.Fragment>
   );
 }
+
+Card.proptype = {};

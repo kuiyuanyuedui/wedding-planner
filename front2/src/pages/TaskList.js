@@ -274,3 +274,5 @@ export default function TaskList() {
     </React.Fragment>
   );
 }
+
+TaskList.proptype = {};
