@@ -20,17 +20,17 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 
 1. Todo Page
 
-1.1 Add a item to list with the form
-1.2 Add a item to list with + sign on drop down to the right
-1.3 Mark complete by clicking on todo text
-1.4 Delete by clicking on trash icon
-1.5 Update by clicking on pen icon
+-  Add a item to list with the form
+- Add a item to list with + sign on drop down to the right
+- Mark complete by clicking on todo text
+- Delete by clicking on trash icon
+- Update by clicking on pen icon
 
 2. Card Page
 
-1.1 Fill the form to create a card with the chosen theme
-1.2 Select on a card previously made to view item
-1.3 Click on delete to delete a card
+- Fill the form to create a card with the chosen theme
+-  Select on a card previously made to view item
+- Click on delete to delete a card
 
 
 # Screenshots
@@ -40,7 +40,15 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 
 
 
+
+
+
 <img width="1429" alt="Screenshot 2022-11-29 at 4 07 39 PM" src="https://user-images.githubusercontent.com/44525752/204675731-9af646f1-64df-4d29-ba2a-be2456bfcdfc.png">
+
+
+
+
+
 
 
 
