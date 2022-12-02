@@ -1,14 +1,3 @@
-# Code Review By Yuan Wang
-  - It was impressed to see that you guys have completed such a lovely web app.
-  - as a user, I like the layout and design, I can easily find the functionalities that I am looking for.
-  - no duplicated code and extra code exists, code are well organized.
-  - I can easily find the respective files, for instance, frontend and backend code goes to their own folder.
-  - one of my advices is to choose the similar color palette for matching the wedding vibes. e.g. light warm tone.
-  - another advice I would recommend you guys to choose a lovely font for the headings to math the idea of your project. e.g. cute and round corner style.
-  
-  overall, it is a useful web app, as a actual user I would like to give it a shot!
-
-
 
 # wedding-planner
 Wedding planner application to manage all wedding related tasks.
