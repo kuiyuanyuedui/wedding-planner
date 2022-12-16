@@ -20,7 +20,7 @@ https://johnguerra.co/classes/webDevelopment_fall_2022/
 # Objective
 
 1. Todo Page
-
+ 
 -  Add a item to list with the form
 - Add a item to list with + sign on drop down to the right
 - Mark complete by clicking on todo text
